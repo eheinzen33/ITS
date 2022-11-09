@@ -10,43 +10,26 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/poppinsbold"
         android:gravity="center"
         android:text="@string/welcome_to_its_corporation"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonProducts"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.414" />
-
-    <Button
-        android:id="@+id/buttonProducts"
-        android:layout_width="169dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="288dp"
-        android:text="@string/get_products_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/buttonProducts"
-        tools:ignore="NotSibling" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_products_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
+    <ImageButton
+        android:layout_width="68dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#40FFFFFF"
+        android:contentDescription="@string/its_rfid"
+        android:outlineSpotShadowColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progress"
-        tools:ignore="UnknownId" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_its_rfid" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

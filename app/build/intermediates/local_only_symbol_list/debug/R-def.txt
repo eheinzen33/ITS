@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_lrfid_background
 color purple_200
 color purple_500
 color purple_700
@@ -18,7 +19,6 @@ font poppinsmedium
 id CreateNewAccountText
 id btnLogin
 id btnSignUp
-id buttonProducts
 id email
 id emailTextLayout
 id fullname
@@ -28,7 +28,6 @@ id password
 id passwordLogin
 id passwordTextLayout
 id progress
-id recycler_products_view
 id textView
 id username
 id usernameLogin
@@ -36,14 +35,18 @@ id usernameTextLayout
 layout activity_log_in
 layout activity_main
 layout activity_sign_up
+mipmap ic_its_rfid
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_lrfid
+mipmap ic_lrfid_round
 string app_name
 string createAccountText
 string create_account
 string email
 string fullname
 string get_products_btn
+string its_rfid
 string login
 string loginHere
 string password
