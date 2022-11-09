@@ -11,4 +11,5 @@
     <string name="createAccountText">Don\'t have an account? <u>Create here</u></string>
     <string name="welcome_to_its_corporation">Welcome to ITS Corporation!</string>
     <string name="get_products_btn">Get Products</string>
+    <string name="its_rfid">RFID</string>
 </resources>
