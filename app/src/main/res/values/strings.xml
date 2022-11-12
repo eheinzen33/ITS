@@ -12,4 +12,6 @@
     <string name="welcome_to_its_corporation">Welcome to ITS Corporation!</string>
     <string name="get_products_btn">Get Products</string>
     <string name="its_rfid">RFID</string>
+    <string name="product_row">Product</string>
+    <string name="epc_row">EPC</string>
 </resources>

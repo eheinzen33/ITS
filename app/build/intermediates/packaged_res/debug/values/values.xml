@@ -12,12 +12,14 @@
     <string name="createAccountText">Don\'t have an account? <u>Create here</u></string>
     <string name="create_account">Create Account</string>
     <string name="email">email</string>
+    <string name="epc_row">EPC</string>
     <string name="fullname">Fullname</string>
     <string name="get_products_btn">Get Products</string>
     <string name="its_rfid">RFID</string>
     <string name="login">Login</string>
     <string name="loginHere">Already have an account? <u>Login</u></string>
     <string name="password">Password</string>
+    <string name="product_row">Product</string>
     <string name="sign_up">Sign Up</string>
     <string name="username">Username</string>
     <string name="welcome_to_its_corporation">Welcome to ITS Corporation!</string>

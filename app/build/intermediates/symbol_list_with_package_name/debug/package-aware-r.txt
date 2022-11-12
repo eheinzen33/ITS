@@ -2830,6 +2830,8 @@ id bounceEnd
 id bounceStart
 id btnLogin
 id btnSignUp
+id btn_rfid
+id btn_searchP
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2911,6 +2913,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id epc_textview
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3061,6 +3064,7 @@ id onInterceptTouchReturnSwipe
 id outline
 id outward
 id overshoot
+id p_recyclerView
 id packed
 id parallax
 id parent
@@ -3079,6 +3083,7 @@ id pin
 id position
 id postLayout
 id pressed
+id product_textview
 id progress
 id progress_circular
 id progress_horizontal
@@ -3102,6 +3107,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBarProducts
 id search_badge
 id search_bar
 id search_button
@@ -3335,6 +3341,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_log_in
 layout activity_main
+layout activity_search_products
 layout activity_sign_up
 layout custom_action_bar
 layout custom_dialog
@@ -3410,6 +3417,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout preview_capture
+layout product_epc_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3463,6 +3471,7 @@ string clear_text_end_icon_content_description
 string createAccountText
 string create_account
 string email
+string epc_row
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3577,6 +3586,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string product_row
 string search_menu_title
 string side_sheet_behavior
 string sign_up

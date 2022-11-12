@@ -2,11 +2,14 @@ package com.example.its_5;
 import com.vishnusivadas.advanced_httpurlconnection.FetchData;
 //import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Button showProductsBtn = findViewById(R.id.buttonProducts);
-//
-//        showProductsBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
+        ImageButton showProductsBtn = findViewById(R.id.btn_rfid);
+
+        showProductsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 //                Handler handler = new Handler(Looper.getMainLooper());
 //                handler.post(new Runnable() {
 //                    @Override
@@ -35,8 +38,11 @@ public class MainActivity extends AppCompatActivity {
 //                        }
 //                    }
 //                });
-//            }
-//        });
+                Intent intent = new Intent(getApplicationContext(), SearchProducts.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
 
 
