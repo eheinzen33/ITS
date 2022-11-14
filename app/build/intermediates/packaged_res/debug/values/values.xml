@@ -9,7 +9,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ITS_4</string>
-    <string name="btn_show_products">Show products</string>
+    <string name="btn_show_products">Show records</string>
     <string name="createAccountText">Don\'t have an account? <u>Create here</u></string>
     <string name="create_account">Create Account</string>
     <string name="daterow">dateRow</string>
