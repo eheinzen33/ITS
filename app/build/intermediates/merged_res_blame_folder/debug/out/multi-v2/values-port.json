@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.its_5.app-mergeDebugResources-28:/values-port/values-port.xml",
+            "outputFile": "com.example.its_5.app-mergeDebugResources-30:/values-port/values-port.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\emheinze\\.gradle\\caches\\transforms-3\\914422cfddfc2918a21e85747e6a1959\\transformed\\jetified-car-ui-lib-2.3.0\\res\\values-port\\values.xml",
+                    "from": {
+                        "startLines": "4,7,8",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "212,423,488",
+                        "endColumns": "59,64,62",
+                        "endOffsets": "271,487,550"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "111,175,244",
+                        "endColumns": "63,68,66",
+                        "endOffsets": "170,239,306"
+                    }
+                },
                 {
                     "source": "C:\\Users\\emheinze\\.gradle\\caches\\transforms-3\\3237c50a3caa87d96377052b95ee4677\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
                     "from": {

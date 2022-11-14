@@ -4,30 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
     android:background="#FFFFFF">
 
     <TextView
         android:id="@+id/product_textview"
         android:layout_width="291dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="44dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="24dp"
-        android:text="@string/product_row"
         android:background="@android:color/transparent"
+        android:text="@string/product_row"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/epc_textview"
+        app:layout_constraintStart_toEndOf="@+id/product_textview"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/epc_textview"
-        android:layout_width="94dp"
-        android:layout_height="21dp"
+        android:layout_width="79dp"
+        android:layout_height="20dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/epc_row"
+        android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
+        android:text="@string/epc_row"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

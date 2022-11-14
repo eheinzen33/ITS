@@ -36,132 +36,188 @@
 19-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:21:5-70
 19-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:21:19-67
 20
-21    <application
-21-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:7:5-54:19
-22        android:allowBackup="true"
-22-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:8:9-35
-23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.8.0] C:\Users\emheinze\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-24        android:dataExtractionRules="@xml/data_extraction_rules"
-24-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:9:9-65
-25        android:debuggable="true"
-26        android:extractNativeLibs="false"
-27        android:fullBackupContent="@xml/backup_rules"
-27-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:10:9-54
-28        android:icon="@mipmap/ic_launcher"
-28-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:11:9-43
-29        android:label="@string/app_name"
-29-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:12:9-41
-30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:13:9-54
-31        android:supportsRtl="true"
-31-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:14:9-35
-32        android:testOnly="true"
-33        android:theme="@style/Theme.ITS_4"
-33-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:15:9-43
-34        android:usesCleartextTraffic="true" >
-34-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:16:9-44
-35        <activity
-35-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:18:9-24:20
-36            android:name="com.example.its_5.SearchProducts"
-36-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:19:13-43
-37            android:exported="false" >
-37-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:20:13-37
-38            <meta-data
-38-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
-39                android:name="android.app.lib_name"
-39-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
-40                android:value="" />
-40-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
-41        </activity>
-42        <activity
-42-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:25:9-38:20
-43            android:name="com.example.its_5.LogIn"
-43-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:26:13-34
-44            android:exported="true"
-44-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:27:13-36
-45            android:theme="@style/Theme.Design.Light.NoActionBar" >
-45-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:28:13-66
-46            <intent-filter>
-46-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:29:13-33:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:30:17-69
-47-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:30:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:32:17-77
-49-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:32:27-74
-50            </intent-filter>
-51
-52            <meta-data
-52-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
-53                android:name="android.app.lib_name"
-53-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
-54                android:value="" />
-54-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
-55        </activity>
-56        <activity
-56-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:39:9-46:20
-57            android:name="com.example.its_5.SignUp"
-57-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-35
-58            android:exported="true"
-58-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:13-36
-59            android:theme="@style/Theme.Design.Light.NoActionBar" >
-59-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:13-66
-60            <meta-data
-60-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
-61                android:name="android.app.lib_name"
-61-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
-62                android:value="" />
-62-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
-63        </activity>
-64        <activity
-64-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:47:9-53:20
-65            android:name="com.example.its_5.MainActivity"
-65-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:48:13-41
-66            android:exported="true" >
-66-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:49:13-36
-67            <meta-data
-67-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
-68                android:name="android.app.lib_name"
-68-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
-69                android:value="" />
-69-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
-70        </activity>
-71        <activity
-71-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:24:9-26:85
-72            android:name="com.hopeland.ui.ZXingScanActivity"
-72-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:25:13-61
-73            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
-73-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:26:13-82
-74        <activity
-74-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:27:9-29:85
-75            android:name="com.hopeland.ui.ZXingDumpActivity"
-75-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:28:13-61
-76            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
-76-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:29:13-82
-77
-78        <provider
-78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-79            android:name="androidx.startup.InitializationProvider"
-79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-80            android:authorities="com.example.its_5.androidx-startup"
-80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-81            android:exported="false" >
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-82            <meta-data
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-84                android:value="androidx.startup" />
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-85            <meta-data
-85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-87                android:value="androidx.startup" />
-87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-88        </provider>
-89    </application>
-90
-91</manifest>
+21    <queries>
+21-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:23:5-34:15
+22
+23        <!-- Required for querying the IME service at runtime -->
+24        <intent>
+24-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:26:9-28:18
+25            <action android:name="android.view.InputMethod" />
+25-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:27:13-63
+25-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:27:21-60
+26        </intent>
+27        <!-- Required for querying the plugin at runtime -->
+28        <provider
+28-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:30:9-33:67
+29            android:name="com.android.car.ui.plugin.PluginNameProvider"
+29-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:31:13-72
+30            android:authorities="com.android.car.ui.plugin" />
+30-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:32:13-60
+31    </queries>
+32
+33    <application
+33-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:7:5-61:19
+34        android:allowBackup="true"
+34-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:8:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.8.0] C:\Users\emheinze\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:9:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:10:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:11:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:12:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:13:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:14:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.ITS_4"
+45-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:15:9-43
+46        android:usesCleartextTraffic="true" >
+46-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:16:9-44
+47        <activity
+47-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:18:9-24:20
+48            android:name="com.example.its_5.DataProductActivity"
+48-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:19:13-48
+49            android:exported="false" >
+49-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:20:13-37
+50            <meta-data
+50-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
+52                android:value="" />
+52-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
+53        </activity>
+54        <activity
+54-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:25:9-31:20
+55            android:name="com.example.its_5.SearchProducts"
+55-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:26:13-43
+56            android:exported="false" >
+56-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:27:13-37
+57            <meta-data
+57-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
+59                android:value="" />
+59-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
+60        </activity>
+61        <activity
+61-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:32:9-45:20
+62            android:name="com.example.its_5.LogIn"
+62-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:33:13-34
+63            android:exported="true"
+63-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:34:13-36
+64            android:theme="@style/Theme.Design.Light.NoActionBar" >
+64-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:35:13-66
+65            <intent-filter>
+65-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:36:13-40:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:37:17-69
+66-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:37:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:39:17-77
+68-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:39:27-74
+69            </intent-filter>
+70
+71            <meta-data
+71-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
+72                android:name="android.app.lib_name"
+72-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
+73                android:value="" />
+73-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
+74        </activity>
+75        <activity
+75-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:46:9-53:20
+76            android:name="com.example.its_5.SignUp"
+76-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:47:13-35
+77            android:exported="true"
+77-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:48:13-36
+78            android:theme="@style/Theme.Design.Light.NoActionBar" >
+78-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:49:13-66
+79            <meta-data
+79-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
+80                android:name="android.app.lib_name"
+80-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
+81                android:value="" />
+81-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
+82        </activity>
+83        <activity
+83-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:54:9-60:20
+84            android:name="com.example.its_5.MainActivity"
+84-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:55:13-41
+85            android:exported="true" >
+85-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:56:13-36
+86            <meta-data
+86-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-23:36
+87                android:name="android.app.lib_name"
+87-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:17-52
+88                android:value="" />
+88-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-33
+89        </activity>
+90        <activity
+90-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:24:9-26:85
+91            android:name="com.hopeland.ui.ZXingScanActivity"
+91-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:25:13-61
+92            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
+92-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:26:13-82
+93        <activity
+93-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:27:9-29:85
+94            android:name="com.hopeland.ui.ZXingDumpActivity"
+94-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:28:13-61
+95            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
+95-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:29:13-82
+96
+97        <provider
+97-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:37:9-42:71
+98            android:name="com.android.car.ui.core.CarUiInstaller"
+98-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:38:13-66
+99            android:authorities="com.example.its_5.CarUiInstaller"
+99-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:39:13-66
+100            android:directBootAware="true"
+100-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:40:13-43
+101            android:exported="false"
+101-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:41:13-37
+102            android:process="@string/car_ui_installer_process_name" />
+102-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:42:13-68
+103        <provider
+103-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:43:9-48:79
+104            android:name="com.android.car.ui.core.SearchResultsProvider"
+104-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:44:13-73
+105            android:authorities="com.example.its_5.SearchResultsProvider"
+105-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:45:13-73
+106            android:exported="true"
+106-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:46:13-36
+107            android:process="@string/car_ui_installer_process_name"
+107-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:47:13-68
+108            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+108-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:48:13-76
+109        <provider
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+110            android:name="androidx.startup.InitializationProvider"
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+111            android:authorities="com.example.its_5.androidx-startup"
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+112            android:exported="false" >
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+113            <meta-data
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+115                android:value="androidx.startup" />
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+118                android:value="androidx.startup" />
+118-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+119        </provider>
+120    </application>
+121
+122</manifest>

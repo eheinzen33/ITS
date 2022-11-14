@@ -5,6 +5,7 @@ import androidx.lifecycle.HasDefaultViewModelProviderFactory;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -40,6 +42,7 @@ public class SearchProducts extends AppCompatActivity {
     SearchView searchView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final String username = getIntent().getStringExtra("username");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_products);
         searchView  = findViewById(R.id.searchBarProducts);
@@ -59,13 +62,27 @@ public class SearchProducts extends AppCompatActivity {
         productList = new ArrayList<>();
         recyclerView = findViewById(R.id.p_recyclerView);
         btnStart = findViewById(R.id.btn_searchP);
-
+        GetData getData = new GetData();
+        getData.execute();
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                ArrayList<String> epcSelectedList = new ArrayList<>();
+                List<ProductClass> ProductSelectedList = adapter.getSelectedItems();
+                if (!ProductSelectedList.isEmpty()){
+                    for (ProductClass product : ProductSelectedList){
+                        epcSelectedList.add(product.getProduct());
+                    }
+                    Intent intent = new Intent(getApplicationContext(), DataProductActivity.class);
+                    intent.putExtra("username",String.valueOf(username));
+                    intent.putStringArrayListExtra("epcList", epcSelectedList);
+                    SearchProducts.this.startActivity(intent);
+                    finish();
+                }
 
-                GetData getData = new GetData();
-                getData.execute();
+
+//                GetData getData = new GetData();
+//                getData.execute();
 
             }
         });

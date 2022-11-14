@@ -13,8 +13,10 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final String username = getIntent().getStringExtra("username");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -39,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
 //                    }
 //                });
                 Intent intent = new Intent(getApplicationContext(), SearchProducts.class);
-                startActivity(intent);
+                intent.putExtra("username",username);
+                MainActivity.this.startActivity(intent);
                 finish();
             }
         });

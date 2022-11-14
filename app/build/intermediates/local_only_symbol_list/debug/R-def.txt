@@ -21,6 +21,7 @@ id btnLogin
 id btnSignUp
 id btn_rfid
 id btn_searchP
+id date_row
 id email
 id emailTextLayout
 id epc_textview
@@ -31,10 +32,15 @@ id p_recyclerView
 id password
 id passwordLogin
 id passwordTextLayout
+id product_data_row
+id product_history_recyclerview
 id product_textview
 id progress
+id quantity_row
 id searchBarProducts
+id stage_row
 id textView
+id title_product_data
 id username
 id usernameLogin
 id usernameTextLayout
@@ -42,6 +48,8 @@ layout activity_log_in
 layout activity_main
 layout activity_search_products
 layout activity_sign_up
+layout product_data_layout
+layout product_data_row
 layout product_epc_layout
 mipmap ic_its_rfid
 mipmap ic_launcher
@@ -49,8 +57,10 @@ mipmap ic_launcher_round
 mipmap ic_lrfid
 mipmap ic_lrfid_round
 string app_name
+string btn_show_products
 string createAccountText
 string create_account
+string daterow
 string email
 string epc_row
 string fullname
@@ -60,7 +70,10 @@ string login
 string loginHere
 string password
 string product_row
+string productdatarow
+string quantityrow
 string sign_up
+string stagerow
 string username
 string welcome_to_its_corporation
 style Theme.ITS_4

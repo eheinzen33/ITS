@@ -55,22 +55,38 @@ public class Product_adapter extends RecyclerView.Adapter<Product_adapter.MyView
 
         holder.epc.setText(mData.get(position).getEpc());
         holder.Product.setText(mData.get(position).getProduct());
-        holder.Product.setOnClickListener(new View.OnClickListener() {
+        holder.Product.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public void onClick(View view) {
-                if (!(product.getProduct() == (String) holder.Product.getText())){return;}
+            public boolean onLongClick(View view) {
+                if (!(product.getProduct() == (String) holder.Product.getText())){return true;}
                 ColorDrawable Colorcheck = (ColorDrawable) holder.Product.getBackground();
                 if( Colorcheck.getColor() == Color.BLUE ){
                     holder.Product.setBackgroundColor(Color.TRANSPARENT);
                     mDataSelected.remove(product);
-                    return;
+                    return false;
                 }else {
                     holder.Product.setBackgroundColor(Color.BLUE);
                     mDataSelected.add(product);
                 }
-
+                return true;
             }
         });
+//        holder.Product.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if (!(product.getProduct() == (String) holder.Product.getText())){return;}
+//                ColorDrawable Colorcheck = (ColorDrawable) holder.Product.getBackground();
+//                if( Colorcheck.getColor() == Color.BLUE ){
+//                    holder.Product.setBackgroundColor(Color.TRANSPARENT);
+//                    mDataSelected.remove(product);
+//                    return;
+//                }else {
+//                    holder.Product.setBackgroundColor(Color.BLUE);
+//                    mDataSelected.add(product);
+//                }
+//
+//            }
+//        });
         // Using Glide library to display image if yo want
 
 
@@ -97,5 +113,7 @@ public class Product_adapter extends RecyclerView.Adapter<Product_adapter.MyView
         }
     }
 
-
+    public List<ProductClass> getSelectedItems(){
+        return this.mDataSelected;
+    }
 }

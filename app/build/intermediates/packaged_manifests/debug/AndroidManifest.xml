@@ -18,6 +18,18 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
+    <queries>
+
+        <!-- Required for querying the IME service at runtime -->
+        <intent>
+            <action android:name="android.view.InputMethod" />
+        </intent>
+        <!-- Required for querying the plugin at runtime -->
+        <provider
+            android:name="com.android.car.ui.plugin.PluginNameProvider"
+            android:authorities="com.android.car.ui.plugin" />
+    </queries>
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -32,6 +44,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.ITS_4"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.its_5.DataProductActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name="com.example.its_5.SearchProducts"
             android:exported="false" >
@@ -75,6 +94,18 @@
             android:name="com.hopeland.ui.ZXingDumpActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
 
+        <provider
+            android:name="com.android.car.ui.core.CarUiInstaller"
+            android:authorities="com.example.its_5.CarUiInstaller"
+            android:directBootAware="true"
+            android:exported="false"
+            android:process="@string/car_ui_installer_process_name" />
+        <provider
+            android:name="com.android.car.ui.core.SearchResultsProvider"
+            android:authorities="com.example.its_5.SearchResultsProvider"
+            android:exported="true"
+            android:process="@string/car_ui_installer_process_name"
+            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.its_5.androidx-startup"

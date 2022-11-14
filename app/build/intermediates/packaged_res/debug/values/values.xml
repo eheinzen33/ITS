@@ -9,8 +9,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ITS_4</string>
+    <string name="btn_show_products">Show products</string>
     <string name="createAccountText">Don\'t have an account? <u>Create here</u></string>
     <string name="create_account">Create Account</string>
+    <string name="daterow">dateRow</string>
     <string name="email">email</string>
     <string name="epc_row">EPC</string>
     <string name="fullname">Fullname</string>
@@ -20,7 +22,10 @@
     <string name="loginHere">Already have an account? <u>Login</u></string>
     <string name="password">Password</string>
     <string name="product_row">Product</string>
+    <string name="productdatarow">productDataRow</string>
+    <string name="quantityrow">quantityRow</string>
     <string name="sign_up">Sign Up</string>
+    <string name="stagerow">stageRow</string>
     <string name="username">Username</string>
     <string name="welcome_to_its_corporation">Welcome to ITS Corporation!</string>
     <style name="Theme.ITS_4" parent="Theme.AppCompat.Light.DarkActionBar">
