@@ -14,7 +14,7 @@
     <string name="its_rfid">RFID</string>
     <string name="product_row">Product</string>
     <string name="epc_row">EPC</string>
-    <string name="btn_show_products">Show products</string>
+    <string name="btn_show_products">Show records</string>
     <string name="daterow">dateRow</string>
     <string name="productdatarow">productDataRow</string>
     <string name="stagerow">stageRow</string>

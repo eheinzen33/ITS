@@ -7,43 +7,49 @@
 
     <TextView
         android:id="@+id/date_row"
-        android:layout_width="95dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="250dp"
         android:text="@string/daterow"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/product_data_row"
-        android:layout_width="159dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="16dp"
         android:text="@string/productdatarow"
+        android:textSize="10sp"
         app:layout_constraintStart_toEndOf="@+id/date_row"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/stage_row"
-        android:layout_width="0dp"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
         android:text="@string/stagerow"
+        android:textSize="10sp"
         app:layout_constraintStart_toEndOf="@+id/product_data_row"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/quantity_row"
-        android:layout_width="53dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginEnd="15dp"
         android:text="@string/quantityrow"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/stage_row"
         app:layout_constraintTop_toTopOf="parent" />

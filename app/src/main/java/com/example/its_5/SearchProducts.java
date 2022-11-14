@@ -1,6 +1,7 @@
 package com.example.its_5;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.lifecycle.HasDefaultViewModelProviderFactory;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,7 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.SearchView;
+//import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.google.gson.JsonParser;

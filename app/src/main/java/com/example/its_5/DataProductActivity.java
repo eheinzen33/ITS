@@ -32,13 +32,14 @@ public class DataProductActivity extends AppCompatActivity {
     private static String JSON_URL = "https://its-database-connection.azurewebsites.net/select_product_data.php";
     Product_data_adapter product_data_adapter;
     List<ProductDataClass> productRecordList;
+    ArrayList<String> epcList;
     RecyclerView recyclerView;
     TextView productTitle;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        final ArrayList<String> epcList = getIntent().getStringArrayListExtra("epcList");
+        this.epcList = getIntent().getStringArrayListExtra("epcList");
         final String username = getIntent().getStringExtra("username");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_data_layout);
@@ -74,62 +75,53 @@ public class DataProductActivity extends AppCompatActivity {
 
     }
 
-    public class GetData extends AsyncTask<String, String, String> {
-
-        @Override
-        protected String doInBackground(String... strings) {
-            Handler handler = new Handler(Looper.getMainLooper());
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                String product[] = new String[1];
-                String fieldName[] = new String[1];
-                fieldName[0] = "productName";
-                if (!(productRecordList == null || productRecordList.isEmpty())){
-                    product[0] = productRecordList.get(0).getProduct();
-                    PutData putData = new PutData("https://its-database-connection.azurewebsites.net/select_product_data.php","POST",fieldName,product);
-                    if (putData.startPut()) {
-                        if (putData.onComplete()) {
-                            String result = putData.getResult();
+    public class GetData {
+        public void execute() {
+            String product[] = new String[1];
+            String fieldName[] = new String[1];
+            fieldName[0] = "productName";
+            if (!(epcList == null || epcList.isEmpty())) {
+                product[0] = epcList.get(0);
+                PutData putData = new PutData("https://its-database-connection.azurewebsites.net/select_product_data.php", "POST", fieldName, product);
+                if (putData.startPut()) {
+                    if (putData.onComplete()) {
+                        String result = putData.getResult();
+                        try {
+                            JSONArray jsonArray = null;
                             try {
-                                JSONArray jsonArray = null;
-                                try {
-                                    jsonArray = new JSONArray(result);
-                                } catch (JSONException e) {
-                                    e.printStackTrace();
-                                }
-                                for (int i = 0 ; i< jsonArray.length() ; i++){
-                                    JSONObject jsonObject1 = null;
-                                    try {
-                                        jsonObject1 = jsonArray.getJSONObject(i);
-                                    } catch (JSONException e) {
-                                        e.printStackTrace();
-                                    }
-                                    ProductDataClass model = new ProductDataClass();
-                                    model.setDate(jsonObject1.getString("date"));
-                                    model.setProduct(jsonObject1.getString("epc"));
-                                    model.setProduct(jsonObject1.getString("stage"));
-                                    model.setProduct(jsonObject1.getString("quantity"));
-                                    productRecordList.add(model);
-                            }
+                                jsonArray = new JSONArray(result);
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
-                            System.out.println(result);
+                            for (int i = 0; i < jsonArray.length(); i++) {
+                                JSONObject jsonObject1 = null;
+                                try {
+                                    jsonObject1 = jsonArray.getJSONObject(i);
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                                ProductDataClass model = new ProductDataClass();
+                                model.setDate(jsonObject1.getString("date"));
+                                model.setProduct(jsonObject1.getString("epc"));
+                                model.setStage(jsonObject1.getString("stage"));
+                                model.setQuantity(jsonObject1.getString("quantity"));
+                                productRecordList.add(model);
+                                PutDataIntoRecyclerView(productRecordList);
                             }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
                         }
-                }else {System.out.println("No data found...");}
-
+                        System.out.println(result);
+                    }
+                }
+            } else {
+                System.out.println("No data found...");
             }
-        });
 
-
-            PutDataIntoRecyclerView(productRecordList);
-
-
-            return null;
         }
+
     }
+
 
     private void PutDataIntoRecyclerView(List<ProductDataClass> productList){
         product_data_adapter = new Product_data_adapter(this,productList);
