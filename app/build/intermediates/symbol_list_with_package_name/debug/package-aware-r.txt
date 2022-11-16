@@ -3257,6 +3257,7 @@ id btnLogin
 id btnSignUp
 id btn_rfid
 id btn_searchP
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3493,6 +3494,9 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id large
+id last_date_data
+id last_quantity_data
+id last_stage_data
 id layout
 id left
 id leftToRight
@@ -3615,6 +3619,8 @@ id product_textview
 id progress
 id progress_circular
 id progress_horizontal
+id progress_product_data_search
+id progress_product_search
 id quantity_row
 id radio
 id radio_button
@@ -3724,6 +3730,11 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
+id textView4
+id textView6
+id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3737,7 +3748,13 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_data_constrain
+id title_date
+id title_product
 id title_product_data
+id title_quantity
+id title_search_products
+id title_stage
 id title_template
 id toggle
 id top
@@ -4116,6 +4133,7 @@ string createAccountText
 string create_account
 string daterow
 string email
+string epc_code
 string epc_row
 string error_a11y_label
 string error_icon_content_description
@@ -4234,6 +4252,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string preference_copied
+string product_name
 string product_row
 string productdatarow
 string quantityrow

@@ -1,10 +1,9 @@
-package com.example.its_5;
+package com.example.its_5.Adapters;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
-import android.view.PointerIcon;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -12,16 +11,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.textfield.TextInputEditText;
+import com.example.its_5.DataClasses.ProductClass;
+import com.example.its_5.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Product_adapter extends RecyclerView.Adapter<Product_adapter.MyViewHolder> {
 
-    private Context mContext;
+    private final Context mContext;
     private List<ProductClass> mData;
-    private List<ProductClass> mDataSelected = new ArrayList<>();
+    private final List<ProductClass> mDataSelected = new ArrayList<>();
 
     public void setFilteredList(List<ProductClass> filteredList){
         this.mData = filteredList;
@@ -55,21 +55,18 @@ public class Product_adapter extends RecyclerView.Adapter<Product_adapter.MyView
 
         holder.epc.setText(mData.get(position).getEpc());
         holder.Product.setText(mData.get(position).getProduct());
-        holder.Product.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View view) {
-                if (!(product.getProduct() == (String) holder.Product.getText())){return true;}
-                ColorDrawable Colorcheck = (ColorDrawable) holder.Product.getBackground();
-                if( Colorcheck.getColor() == Color.BLUE ){
-                    holder.Product.setBackgroundColor(Color.TRANSPARENT);
-                    mDataSelected.remove(product);
-                    return false;
-                }else {
-                    holder.Product.setBackgroundColor(Color.BLUE);
-                    mDataSelected.add(product);
-                }
-                return true;
+        holder.Product.setOnLongClickListener(view -> {
+            if (!(product.getProduct() == (String) holder.Product.getText())){return true;}
+            ColorDrawable Colorcheck = (ColorDrawable) holder.Product.getBackground();
+            if( Colorcheck.getColor() == Color.BLUE ){
+                holder.Product.setBackgroundColor(Color.TRANSPARENT);
+                mDataSelected.remove(product);
+                return false;
+            }else {
+                holder.Product.setBackgroundColor(Color.BLUE);
+                mDataSelected.add(product);
             }
+            return true;
         });
 //        holder.Product.setOnClickListener(new View.OnClickListener() {
 //            @Override

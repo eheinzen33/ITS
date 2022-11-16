@@ -1,4 +1,4 @@
-package com.example.its_5;
+package com.example.its_5.DataClasses;
 
 public class ProductClass {
 

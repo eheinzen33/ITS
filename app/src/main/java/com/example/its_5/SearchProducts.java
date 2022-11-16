@@ -1,21 +1,20 @@
 package com.example.its_5;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
-import androidx.lifecycle.HasDefaultViewModelProviderFactory;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
-//import android.widget.SearchView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.google.gson.JsonParser;
+import com.example.its_5.Adapters.Product_adapter;
+import com.example.its_5.DataClasses.ProductClass;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -24,26 +23,25 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class SearchProducts extends AppCompatActivity {
 
     //JSON Link to the data.
-    private static String JSON_URL = "https://its-database-connection.azurewebsites.net/select_products.php";
+    private static final String JSON_URL = "https://its-database-connection.azurewebsites.net/select_products.php";
     Product_adapter adapter;
     List<ProductClass> productList;
     RecyclerView recyclerView;
     Button btnStart;
     SearchView searchView;
+    ProgressBar progressBar;
+    String username;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        final String username = getIntent().getStringExtra("username");
+        this.username = getIntent().getStringExtra("username");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_products);
         searchView  = findViewById(R.id.searchBarProducts);
@@ -63,33 +61,36 @@ public class SearchProducts extends AppCompatActivity {
         productList = new ArrayList<>();
         recyclerView = findViewById(R.id.p_recyclerView);
         btnStart = findViewById(R.id.btn_searchP);
+        progressBar  = findViewById(R.id.progress_product_search);
+        progressBar.setVisibility(View.VISIBLE);
         GetData getData = new GetData();
         getData.execute();
-        btnStart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ArrayList<String> epcSelectedList = new ArrayList<>();
-                List<ProductClass> ProductSelectedList = adapter.getSelectedItems();
-                if (!ProductSelectedList.isEmpty()){
-                    for (ProductClass product : ProductSelectedList){
-                        epcSelectedList.add(product.getProduct());
-                    }
-                    Intent intent = new Intent(getApplicationContext(), DataProductActivity.class);
-                    intent.putExtra("username",String.valueOf(username));
-                    intent.putStringArrayListExtra("epcList", epcSelectedList);
-                    SearchProducts.this.startActivity(intent);
-                    finish();
+
+        btnStart.setOnClickListener(view -> {
+            ArrayList<String> epcSelectedList = new ArrayList<>();
+            List<ProductClass> ProductSelectedList = adapter.getSelectedItems();
+            if (!ProductSelectedList.isEmpty()){
+                for (ProductClass product : ProductSelectedList){
+                    epcSelectedList.add(product.getProduct());
                 }
-
-
-//                GetData getData = new GetData();
-//                getData.execute();
-
+                Intent intent = new Intent(getApplicationContext(), DataProductActivity.class);
+                intent.putExtra("username",String.valueOf(username));
+                intent.putStringArrayListExtra("epcList", epcSelectedList);
+                SearchProducts.this.startActivity(intent);
+                finish();
             }
         });
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        intent.putExtra("username",String.valueOf(username));
+        SearchProducts.this.startActivity(intent);
+        this.finish();
+    }
     private void filterList(String s) {
 
 
@@ -112,7 +113,6 @@ public class SearchProducts extends AppCompatActivity {
 
         @Override
         protected String doInBackground(String... strings) {
-
             String current = "";
 
             try {
@@ -134,8 +134,6 @@ public class SearchProducts extends AppCompatActivity {
                     }
 
                     return current;
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
                 } catch (IOException e) {
                     e.printStackTrace();
                 } finally {
@@ -155,8 +153,6 @@ public class SearchProducts extends AppCompatActivity {
         protected void onPostExecute(String s) {
 
             try {
-                //JSONObject jsonObject = new JSONObject(s);
-                //JSONArray jsonArray = jsonObject.getJSONArray("products");
                 JSONArray jsonArray = new JSONArray(s);
                 for (int i = 0 ; i< jsonArray.length() ; i++){
                     JSONObject jsonObject1 = jsonArray.getJSONObject(i);
@@ -181,6 +177,7 @@ public class SearchProducts extends AppCompatActivity {
 
     private void PutDataIntoRecyclerView(List<ProductClass> productList){
         adapter = new Product_adapter(this,productList);
+        progressBar.setVisibility(View.GONE);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         recyclerView.setAdapter(adapter);

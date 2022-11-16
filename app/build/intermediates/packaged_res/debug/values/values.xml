@@ -14,6 +14,7 @@
     <string name="create_account">Create Account</string>
     <string name="daterow">dateRow</string>
     <string name="email">email</string>
+    <string name="epc_code">EPC Code</string>
     <string name="epc_row">EPC</string>
     <string name="fullname">Fullname</string>
     <string name="get_products_btn">Get Products</string>
@@ -21,6 +22,7 @@
     <string name="login">Login</string>
     <string name="loginHere">Already have an account? <u>Login</u></string>
     <string name="password">Password</string>
+    <string name="product_name">Product Name</string>
     <string name="product_row">Product</string>
     <string name="productdatarow">productDataRow</string>
     <string name="quantityrow">quantityRow</string>

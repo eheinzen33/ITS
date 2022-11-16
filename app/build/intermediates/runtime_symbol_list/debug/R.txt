@@ -3256,6 +3256,7 @@ int id btnLogin 0x7f0a0075
 int id btnSignUp 0x7f0a0076
 int id btn_rfid 0x7f0a0077
 int id btn_searchP 0x7f0a0078
+int id button 0x7f0a0291
 int id buttonPanel 0x7f0a0079
 int id cache_measures 0x7f0a007a
 int id callMeasure 0x7f0a007b
@@ -3492,6 +3493,9 @@ int id jumpToEnd 0x7f0a0161
 int id jumpToStart 0x7f0a0162
 int id labeled 0x7f0a0163
 int id large 0x7f0a0164
+int id last_date_data 0x7f0a028a
+int id last_quantity_data 0x7f0a028b
+int id last_stage_data 0x7f0a028c
 int id layout 0x7f0a0165
 int id left 0x7f0a0166
 int id leftToRight 0x7f0a0167
@@ -3614,6 +3618,8 @@ int id product_textview 0x7f0a01db
 int id progress 0x7f0a01dc
 int id progress_circular 0x7f0a01dd
 int id progress_horizontal 0x7f0a01de
+int id progress_product_data_search 0x7f0a0290
+int id progress_product_search 0x7f0a0281
 int id quantity_row 0x7f0a01df
 int id radio 0x7f0a01e0
 int id radio_button 0x7f0a01e1
@@ -3723,6 +3729,11 @@ int id textSpacerNoTitle 0x7f0a0248
 int id textStart 0x7f0a0249
 int id textTop 0x7f0a024a
 int id textView 0x7f0a024b
+int id textView2 0x7f0a028d
+int id textView3 0x7f0a028e
+int id textView4 0x7f0a028f
+int id textView6 0x7f0a0282
+int id textView7 0x7f0a0283
 int id text_input_end_icon 0x7f0a024c
 int id text_input_error_icon 0x7f0a024d
 int id text_input_start_icon 0x7f0a024e
@@ -3736,7 +3747,13 @@ int id textinput_suffix_text 0x7f0a0255
 int id time 0x7f0a0256
 int id title 0x7f0a0257
 int id titleDividerNoCustom 0x7f0a0258
+int id title_data_constrain 0x7f0a0285
+int id title_date 0x7f0a0286
+int id title_product 0x7f0a0287
 int id title_product_data 0x7f0a0259
+int id title_quantity 0x7f0a0288
+int id title_search_products 0x7f0a0284
+int id title_stage 0x7f0a0289
 int id title_template 0x7f0a025a
 int id toggle 0x7f0a025b
 int id top 0x7f0a025c
@@ -4115,6 +4132,7 @@ int string createAccountText 0x7f12003d
 int string create_account 0x7f12003e
 int string daterow 0x7f12003f
 int string email 0x7f120040
+int string epc_code 0x7f1200cf
 int string epc_row 0x7f120041
 int string error_a11y_label 0x7f120042
 int string error_icon_content_description 0x7f120043
@@ -4233,6 +4251,7 @@ int string path_password_eye_mask_strike_through 0x7f1200b3
 int string path_password_eye_mask_visible 0x7f1200b4
 int string path_password_strike_through 0x7f1200b5
 int string preference_copied 0x7f1200b6
+int string product_name 0x7f1200d0
 int string product_row 0x7f1200b7
 int string productdatarow 0x7f1200b8
 int string quantityrow 0x7f1200b9

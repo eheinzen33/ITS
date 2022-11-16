@@ -32,6 +32,10 @@
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-xxxhdpi\\ic_lrfid.png"
     },
     {
+        "merged": "com.example.its_5.app-merged_res-32:/layout_product_data_layout.xml.flat",
+        "source": "com.example.its_5.app-main-34:/layout/product_data_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -64,12 +68,12 @@
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-mdpi\\ic_its_rfid.png"
     },
     {
-        "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-hdpi_ic_lrfid.png.flat",
-        "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-hdpi\\ic_lrfid.png"
-    },
-    {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-hdpi_ic_lrfid.png.flat",
+        "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-hdpi\\ic_lrfid.png"
     },
     {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\layout_product_data_layout.xml.flat",
@@ -92,20 +96,16 @@
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-xhdpi\\ic_lrfid.png"
     },
     {
-        "merged": "com.example.its_5.app-merged_res-32:/layout_product_data_row.xml.flat",
-        "source": "com.example.its_5.app-main-34:/layout/product_data_row.xml"
-    },
-    {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-mdpi_ic_lrfid_round.png.flat",
-        "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-mdpi\\ic_lrfid_round.png"
-    },
-    {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-mdpi_ic_lrfid_round.png.flat",
+        "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-mdpi\\ic_lrfid_round.png"
     },
     {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-xxxhdpi\\ic_lrfid_round.png"
     },
     {
-        "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-xxhdpi_ic_its_rfid.png.flat",
-        "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-xxhdpi\\ic_its_rfid.png"
-    },
-    {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\layout_activity_sign_up.xml.flat",
         "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-main-34:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\mipmap-xxhdpi_ic_its_rfid.png.flat",
+        "source": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-debug-33:\\mipmap-xxhdpi\\ic_its_rfid.png"
     },
     {
         "merged": "C:\\Users\\emheinze\\.gradle\\daemon\\7.4\\com.example.its_5.app-merged_res-32:\\layout_activity_search_products.xml.flat",

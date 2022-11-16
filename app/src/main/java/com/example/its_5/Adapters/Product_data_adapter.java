@@ -1,4 +1,4 @@
-package com.example.its_5;
+package com.example.its_5.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,11 +9,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.its_5.DataClasses.ProductDataClass;
+import com.example.its_5.R;
+
 import java.util.List;
 
 public class Product_data_adapter extends RecyclerView.Adapter<Product_data_adapter.MyViewHolder> {
-    private Context mContext;
-    private List<ProductDataClass> mData;
+    private final Context mContext;
+    private final List<ProductDataClass> mData;
 
     public Product_data_adapter(Context mContext, List<ProductDataClass> mData) {
         this.mContext = mContext;

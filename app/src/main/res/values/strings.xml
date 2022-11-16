@@ -19,4 +19,6 @@
     <string name="productdatarow">productDataRow</string>
     <string name="stagerow">stageRow</string>
     <string name="quantityrow">quantityRow</string>
+    <string name="product_name">Product Name</string>
+    <string name="epc_code">EPC Code</string>
 </resources>
