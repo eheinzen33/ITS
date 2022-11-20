@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.its_5.app-mergeDebugResources-30:/values-bn/values-bn.xml",
+            "outputFile": "com.example.its_5.app-mergeDebugResources-29:/values-bn/values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\emheinze\\.gradle\\caches\\transforms-3\\914422cfddfc2918a21e85747e6a1959\\transformed\\jetified-car-ui-lib-2.3.0\\res\\values-bn\\values.xml",

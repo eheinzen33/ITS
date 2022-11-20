@@ -163,7 +163,7 @@
         app:layout_constraintTop_toBottomOf="@+id/last_stage_data" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_search_ot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"

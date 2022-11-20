@@ -12386,7 +12386,416 @@
   </plurals><string name="bottomsheet_action_collapse">收合底部功能表</string><string name="bottomsheet_action_expand">展開底部功能表</string><string name="bottomsheet_action_expand_halfway">展開一半</string><string name="bottomsheet_drag_handle_clicked">已輕觸兩下拖曳控點</string><string name="bottomsheet_drag_handle_content_description">拖曳控點</string><string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string><string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string><string name="clear_text_end_icon_content_description">清除文字</string><string name="error_icon_content_description">錯誤</string><string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string><string name="icon_content_description">對話方塊圖示</string><string name="item_view_role_description">分頁標籤</string><string name="material_clock_toggle_content_description">選取上午或下午</string><string name="material_hour_24h_suffix">%1$s 小時</string><string name="material_hour_selection">請選取時段</string><string name="material_hour_suffix">%1$s 點</string><string name="material_minute_selection">選取分鐘數</string><string name="material_minute_suffix">%1$s 分</string><string name="material_timepicker_am">AM</string><string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string><string name="material_timepicker_hour">小時</string><string name="material_timepicker_minute">分鐘</string><string name="material_timepicker_pm">PM</string><string name="material_timepicker_select_time">選取時間</string><string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string><string name="mtrl_badge_numberless_content_description">新通知</string><string name="mtrl_chip_close_icon_content_description">移除 %1$s</string><string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">超過 %1$d 則新通知</string><string name="mtrl_picker_a11y_next_month">變更至下個月</string><string name="mtrl_picker_a11y_prev_month">變更至上個月</string><string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string><string name="mtrl_picker_cancel">取消</string><string name="mtrl_picker_confirm">確定</string><string name="mtrl_picker_date_header_selected">%1$s</string><string name="mtrl_picker_date_header_title">選取日期</string><string name="mtrl_picker_date_header_unselected">所選日期</string><string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string><string name="mtrl_picker_invalid_format">格式無效。</string><string name="mtrl_picker_invalid_format_example">範例：%1$s</string><string name="mtrl_picker_invalid_format_use">使用：%1$s</string><string name="mtrl_picker_invalid_range">日期範圍無效。</string><string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string><string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string><string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string><string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string><string name="mtrl_picker_range_header_selected">%1$s – %2$s</string><string name="mtrl_picker_range_header_title">選取範圍</string><string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string><string name="mtrl_picker_save">儲存</string><string name="mtrl_picker_text_input_date_hint">日期</string><string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string><string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string><string name="mtrl_picker_text_input_day_abbr">d</string><string name="mtrl_picker_text_input_month_abbr">m</string><string name="mtrl_picker_text_input_year_abbr">y</string><string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string><string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string><string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string><string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string><string name="mtrl_timepicker_cancel">取消</string><string name="mtrl_timepicker_confirm">確定</string><string name="password_toggle_content_description">顯示密碼</string></file><file path="C:\Users\emheinze\.gradle\caches\transforms-3\e8d25bfd001000384e612a0cf183200c\transformed\material-1.8.0-alpha02\res\values-zu\values-zu.xml" qualifiers="zu"><plurals name="mtrl_badge_content_description">
     <item quantity="one">%d izaziso ezintsha</item>
     <item quantity="other">%d izaziso ezintsha</item>
-  </plurals><string name="bottomsheet_action_collapse">Goqa ishidi eliphansi</string><string name="bottomsheet_action_expand">Nweba ishidi eliphansi</string><string name="bottomsheet_action_expand_halfway">Nweba phakathi</string><string name="bottomsheet_drag_handle_clicked">Hudula isibambi esithephwe kabili</string><string name="bottomsheet_drag_handle_content_description">Hudula isibambi</string><string name="character_counter_content_description">Izinhlamvu ezifakiwe ezingu-%1$d zokungu-%2$d</string><string name="character_counter_overflowed_content_description">Umkhawulo wezinhlamvu udlule u-%1$d kokungu-%2$d</string><string name="clear_text_end_icon_content_description">Sula umbhalo</string><string name="error_icon_content_description">Iphutha</string><string name="exposed_dropdown_menu_content_description">Bonisa imenyu yokudonsela phansi</string><string name="icon_content_description">Isithonjana sebhokisi</string><string name="item_view_role_description">Ithebhu</string><string name="material_clock_toggle_content_description">Khetha u-AM noma u-PM</string><string name="material_hour_24h_suffix">amahora angu-%1$s</string><string name="material_hour_selection">Khetha ihora</string><string name="material_hour_suffix">%1$s ezimpondweni</string><string name="material_minute_selection">Khetha amaminithi</string><string name="material_minute_suffix">amaminithi angu-%1$s</string><string name="material_timepicker_am">AM</string><string name="material_timepicker_clock_mode_description">Shintshela kumodi yewashi ngokufakwa kwesikhathi.</string><string name="material_timepicker_hour">Ihora</string><string name="material_timepicker_minute">Iminithi</string><string name="material_timepicker_pm">PM</string><string name="material_timepicker_select_time">Khetha isikhathi</string><string name="material_timepicker_text_input_mode_description">Shintshela kumodi yokufaka umbhalo ngokufaka isikhathi.</string><string name="mtrl_badge_numberless_content_description">Isaziso esisha</string><string name="mtrl_chip_close_icon_content_description">Susa i-%1$s</string><string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Izaziso ezintsha ezingaphezu kokungu-%1$d</string><string name="mtrl_picker_a11y_next_month">Shintshela kunyanga elandelayo</string><string name="mtrl_picker_a11y_prev_month">Shintshela kunyanga edlule</string><string name="mtrl_picker_announce_current_selection">Ukukhetha kwamanje: %1$s</string><string name="mtrl_picker_cancel">Khansela</string><string name="mtrl_picker_confirm">KULUNGILE</string><string name="mtrl_picker_date_header_selected">%1$s</string><string name="mtrl_picker_date_header_title">Khetha Idethi</string><string name="mtrl_picker_date_header_unselected">Khetha idethi</string><string name="mtrl_picker_day_of_week_column_header">Ikholomu yezinsuku: %1$s</string><string name="mtrl_picker_invalid_format">Ifomethi engavumelekile.</string><string name="mtrl_picker_invalid_format_example">Isibonelo: %1$s</string><string name="mtrl_picker_invalid_format_use">Sebenzisa: %1$s</string><string name="mtrl_picker_invalid_range">Ibanga elingavumelekile.</string><string name="mtrl_picker_navigate_to_year_description">Zulela onyakeni %1$s</string><string name="mtrl_picker_out_of_range">Ikude kubanga: %1$s</string><string name="mtrl_picker_range_header_only_end_selected">Idethi yokuqala – %1$s</string><string name="mtrl_picker_range_header_only_start_selected">%1$s – Idethi yokuphela</string><string name="mtrl_picker_range_header_selected">%1$s – %2$s</string><string name="mtrl_picker_range_header_title">Khetha Ibanga</string><string name="mtrl_picker_range_header_unselected">Idethi yokuqala – Idethi yokuphela</string><string name="mtrl_picker_save">Londoloza</string><string name="mtrl_picker_text_input_date_hint">Idethi</string><string name="mtrl_picker_text_input_date_range_end_hint">Idethi yokuphela</string><string name="mtrl_picker_text_input_date_range_start_hint">Idethi yokuqala</string><string name="mtrl_picker_text_input_day_abbr">d</string><string name="mtrl_picker_text_input_month_abbr">m</string><string name="mtrl_picker_text_input_year_abbr">y</string><string name="mtrl_picker_toggle_to_calendar_input_mode">Shintshela kwimodi yokufaka yekhalenda</string><string name="mtrl_picker_toggle_to_day_selection">Thepha ukuze ushintshe ekukhetheni usuku</string><string name="mtrl_picker_toggle_to_text_input_mode">Shintshela kwimodi yokufaka yombhalo</string><string name="mtrl_picker_toggle_to_year_selection">Thepha ukuze ushintshele ekukhetheni unyaka</string><string name="mtrl_timepicker_cancel">Khansela</string><string name="mtrl_timepicker_confirm">KULUNGILE</string><string name="password_toggle_content_description">Bonisa iphasiwedi</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="pdasdk_v3.39_20211203.aar$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="pdasdk_v3.39_20211203.aar" from-dependency="true" generated-set="pdasdk_v3.39_20211203.aar$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\res"><file path="C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\res\values\values.xml" qualifiers=""><dimen name="button_radius">5dip</dimen><string name="str_back">Back</string><string name="str_busy">busy!</string><string name="str_cancel">Cancel</string><string name="str_configure">configure</string><string name="str_confirm">Confirm</string><string name="str_exit">Exit</string><string name="str_faild">faild</string><string name="str_loading">loading.…</string><string name="str_ok">OK</string><string name="str_please_waitting">please wait.…</string><string name="str_success">success</string></file><file path="C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\res\values-zh-rCN\values-zh-rCN.xml" qualifiers="zh-rCN"><string name="str_back">返回</string><string name="str_busy">忙!</string><string name="str_cancel">取消</string><string name="str_configure">配置</string><string name="str_confirm">确认</string><string name="str_exit">退出</string><string name="str_faild">失败</string><string name="str_loading">加载中.…</string><string name="str_ok">确定</string><string name="str_please_waitting">请稍等.…</string><string name="str_success">成功</string></file><file path="C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\res\values-zh-rTW\values-zh-rTW.xml" qualifiers="zh-rTW"><string name="str_back">返回</string><string name="str_busy">忙!</string><string name="str_cancel">取消</string><string name="str_configure">配置</string><string name="str_confirm">確認</string><string name="str_exit">退出</string><string name="str_faild">失敗</string><string name="str_loading">加載中.…</string><string name="str_ok">確定</string><string name="str_please_waitting">請稍等.…</string><string name="str_success">成功</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res"/><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\rs\debug"/><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res"><file name="ic_baseline_email_24" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_baseline_email_24.xml" qualifiers="" type="drawable"/><file name="ic_fullname" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_fullname.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_password" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_password.xml" qualifiers="" type="drawable"/><file name="ic_username" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_username.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="poppinsbold" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\font\poppinsbold.ttf" qualifiers="" type="font"/><file name="poppinsmedium" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\font\poppinsmedium.ttf" qualifiers="" type="font"/><file name="activity_log_in" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_log_in.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_search_products" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_search_products.xml" qualifiers="" type="layout"/><file name="activity_sign_up" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_sign_up.xml" qualifiers="" type="layout"/><file name="product_epc_layout" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\product_epc_layout.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#4CAF50</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color></file><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">ITS_4</string><string name="username">Username</string><string name="password">Password</string><string name="login">Login</string><string name="sign_up">Sign Up</string><string name="create_account">Create Account</string><string name="fullname">Fullname</string><string name="email">email</string><string name="loginHere">Already have an account? <u>Login</u></string><string name="createAccountText">Don\'t have an account? <u>Create here</u></string><string name="welcome_to_its_corporation">Welcome to ITS Corporation!</string><string name="get_products_btn">Get Products</string><string name="its_rfid">RFID</string><string name="product_row">Product</string><string name="epc_row">EPC</string><string name="btn_show_products">Show records</string><string name="daterow">dateRow</string><string name="productdatarow">productDataRow</string><string name="quantityrow">quantityRow</string><string name="stagerow">stageRow</string><string name="epc_code">EPC Code</string><string name="product_name">Product Name</string></file><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.ITS_4" parent="Theme.AppCompat.Light.DarkActionBar">
+  </plurals><string name="bottomsheet_action_collapse">Goqa ishidi eliphansi</string><string name="bottomsheet_action_expand">Nweba ishidi eliphansi</string><string name="bottomsheet_action_expand_halfway">Nweba phakathi</string><string name="bottomsheet_drag_handle_clicked">Hudula isibambi esithephwe kabili</string><string name="bottomsheet_drag_handle_content_description">Hudula isibambi</string><string name="character_counter_content_description">Izinhlamvu ezifakiwe ezingu-%1$d zokungu-%2$d</string><string name="character_counter_overflowed_content_description">Umkhawulo wezinhlamvu udlule u-%1$d kokungu-%2$d</string><string name="clear_text_end_icon_content_description">Sula umbhalo</string><string name="error_icon_content_description">Iphutha</string><string name="exposed_dropdown_menu_content_description">Bonisa imenyu yokudonsela phansi</string><string name="icon_content_description">Isithonjana sebhokisi</string><string name="item_view_role_description">Ithebhu</string><string name="material_clock_toggle_content_description">Khetha u-AM noma u-PM</string><string name="material_hour_24h_suffix">amahora angu-%1$s</string><string name="material_hour_selection">Khetha ihora</string><string name="material_hour_suffix">%1$s ezimpondweni</string><string name="material_minute_selection">Khetha amaminithi</string><string name="material_minute_suffix">amaminithi angu-%1$s</string><string name="material_timepicker_am">AM</string><string name="material_timepicker_clock_mode_description">Shintshela kumodi yewashi ngokufakwa kwesikhathi.</string><string name="material_timepicker_hour">Ihora</string><string name="material_timepicker_minute">Iminithi</string><string name="material_timepicker_pm">PM</string><string name="material_timepicker_select_time">Khetha isikhathi</string><string name="material_timepicker_text_input_mode_description">Shintshela kumodi yokufaka umbhalo ngokufaka isikhathi.</string><string name="mtrl_badge_numberless_content_description">Isaziso esisha</string><string name="mtrl_chip_close_icon_content_description">Susa i-%1$s</string><string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Izaziso ezintsha ezingaphezu kokungu-%1$d</string><string name="mtrl_picker_a11y_next_month">Shintshela kunyanga elandelayo</string><string name="mtrl_picker_a11y_prev_month">Shintshela kunyanga edlule</string><string name="mtrl_picker_announce_current_selection">Ukukhetha kwamanje: %1$s</string><string name="mtrl_picker_cancel">Khansela</string><string name="mtrl_picker_confirm">KULUNGILE</string><string name="mtrl_picker_date_header_selected">%1$s</string><string name="mtrl_picker_date_header_title">Khetha Idethi</string><string name="mtrl_picker_date_header_unselected">Khetha idethi</string><string name="mtrl_picker_day_of_week_column_header">Ikholomu yezinsuku: %1$s</string><string name="mtrl_picker_invalid_format">Ifomethi engavumelekile.</string><string name="mtrl_picker_invalid_format_example">Isibonelo: %1$s</string><string name="mtrl_picker_invalid_format_use">Sebenzisa: %1$s</string><string name="mtrl_picker_invalid_range">Ibanga elingavumelekile.</string><string name="mtrl_picker_navigate_to_year_description">Zulela onyakeni %1$s</string><string name="mtrl_picker_out_of_range">Ikude kubanga: %1$s</string><string name="mtrl_picker_range_header_only_end_selected">Idethi yokuqala – %1$s</string><string name="mtrl_picker_range_header_only_start_selected">%1$s – Idethi yokuphela</string><string name="mtrl_picker_range_header_selected">%1$s – %2$s</string><string name="mtrl_picker_range_header_title">Khetha Ibanga</string><string name="mtrl_picker_range_header_unselected">Idethi yokuqala – Idethi yokuphela</string><string name="mtrl_picker_save">Londoloza</string><string name="mtrl_picker_text_input_date_hint">Idethi</string><string name="mtrl_picker_text_input_date_range_end_hint">Idethi yokuphela</string><string name="mtrl_picker_text_input_date_range_start_hint">Idethi yokuqala</string><string name="mtrl_picker_text_input_day_abbr">d</string><string name="mtrl_picker_text_input_month_abbr">m</string><string name="mtrl_picker_text_input_year_abbr">y</string><string name="mtrl_picker_toggle_to_calendar_input_mode">Shintshela kwimodi yokufaka yekhalenda</string><string name="mtrl_picker_toggle_to_day_selection">Thepha ukuze ushintshe ekukhetheni usuku</string><string name="mtrl_picker_toggle_to_text_input_mode">Shintshela kwimodi yokufaka yombhalo</string><string name="mtrl_picker_toggle_to_year_selection">Thepha ukuze ushintshele ekukhetheni unyaka</string><string name="mtrl_timepicker_cancel">Khansela</string><string name="mtrl_timepicker_confirm">KULUNGILE</string><string name="password_toggle_content_description">Bonisa iphasiwedi</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res"/><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\rs\debug"/><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res"><file name="ic_baseline_email_24" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_baseline_email_24.xml" qualifiers="" type="drawable"/><file name="ic_fullname" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_fullname.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_password" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_password.xml" qualifiers="" type="drawable"/><file name="ic_username" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\ic_username.xml" qualifiers="" type="drawable"/><file name="left" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable\left.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="poppinsbold" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\font\poppinsbold.ttf" qualifiers="" type="font"/><file name="poppinsmedium" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\font\poppinsmedium.ttf" qualifiers="" type="font"/><file name="activity_log_in" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_log_in.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_search_otactivity" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_search_otactivity.xml" qualifiers="" type="layout"/><file name="activity_search_products" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_search_products.xml" qualifiers="" type="layout"/><file name="activity_sign_up" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\activity_sign_up.xml" qualifiers="" type="layout"/><file name="custom_action_bar" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\custom_action_bar.xml" qualifiers="" type="layout"/><file name="dlt_free_send" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\dlt_free_send.xml" qualifiers="" type="layout"/><file name="item_epc" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\item_epc.xml" qualifiers="" type="layout"/><file name="product_data_layout" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\product_data_layout.xml" qualifiers="" type="layout"/><file name="product_data_row" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\product_data_row.xml" qualifiers="" type="layout"/><file name="product_epc_layout" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\product_epc_layout.xml" qualifiers="" type="layout"/><file name="uhf_read" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\uhf_read.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\values\arrays.xml" qualifiers=""><string-array name="Array_ReadType">
+        <item>EPC</item>
+        <item>TID</item>
+        <item>UserData</item>
+        
+        
+    </string-array><string-array name="Array_Stage">
+        <item>Enter</item>
+        <item>In Transit</item>
+        <item>Exit</item>
+        
+        
+    </string-array><string-array name="Array_ReadType_Matching">
+        <item>EPC</item>
+        <item>TID</item>
+    </string-array><string-array name="Array_AntType">
+        <item>1_2</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="Array_WriteType">
+        <item>EPC</item>
+        <item>UserData</item>
+        <item>Access Password</item>
+    </string-array><string-array name="Array_LockArea">
+        <item>Destroy Password</item>
+        <item>Access Password</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>UserData</item>
+    </string-array><string-array name="Array_LockType">
+        <item>Unlock</item>
+        <item>Lock</item>
+        <item>Forever Unlock</item>
+        <item>Forever Lock</item>
+    </string-array><string-array name="Array_BaseSpeedType">
+        <item>0|Tari=25us,FM0,LHF=40KHz</item>
+        <item>1|Concentrated</item>
+        <item>2|Tari=25us,Miller4,LHF=300KHz</item>
+        <item>3|Fast</item>
+        <item>255|AUTO</item>
+    </string-array><string-array name="Array_Power">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array><string-array name="Array_ReadTime">
+        <item>0</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array><string-array name="Array_StopTime">
+        <item>0</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array><string-array name="Array_QValue">
+        <item>0</item>
+        <item>4</item>
+    </string-array><string-array name="Array_Frequency">
+        <item>0,GB 920~925MHz</item>
+        <item>1,GB 840~845MHz</item>
+        <item>2,GB 840~845MHz And 920~925MHz</item>
+        <item>3,FCC 902~928MHz</item>
+        <item>4,ETSI 865~868MHz</item>
+        <item>5,JP 916.8~920.4MHz</item>
+        <item>6,TW 922.25~927.75MHz</item>
+        <item>7,ID 923.125~925.125MHz</item>
+        <item>8,RUS 866.6~867.4MHz</item>
+    </string-array><string-array name="Array_Carrier">
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="Array_TagType">
+        <item>6C</item>
+        <item>6B</item>
+    </string-array><string-array name="Array_Block">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>119</item>
+        <item>120</item>
+        <item>121</item>
+        <item>122</item>
+        <item>123</item>
+        <item>124</item>
+        <item>125</item>
+        <item>126</item>
+        <item>127</item>
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+        <item>138</item>
+        <item>139</item>
+        <item>140</item>
+        <item>141</item>
+        <item>142</item>
+        <item>143</item>
+        <item>144</item>
+        <item>145</item>
+        <item>146</item>
+        <item>147</item>
+        <item>148</item>
+        <item>149</item>
+        <item>150</item>
+        <item>151</item>
+        <item>152</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+        <item>179</item>
+        <item>180</item>
+        <item>181</item>
+        <item>182</item>
+        <item>183</item>
+        <item>184</item>
+        <item>185</item>
+        <item>186</item>
+        <item>187</item>
+        <item>188</item>
+        <item>189</item>
+        <item>190</item>
+        <item>191</item>
+        <item>192</item>
+        <item>193</item>
+        <item>194</item>
+        <item>195</item>
+        <item>196</item>
+        <item>197</item>
+        <item>198</item>
+        <item>199</item>
+        <item>200</item>
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>205</item>
+        <item>206</item>
+        <item>207</item>
+        <item>208</item>
+        <item>209</item>
+        <item>210</item>
+        <item>211</item>
+        <item>212</item>
+        <item>213</item>
+        <item>214</item>
+        <item>215</item>
+        <item>216</item>
+        <item>217</item>
+        <item>218</item>
+        <item>219</item>
+        <item>220</item>
+        <item>221</item>
+        <item>222</item>
+        <item>223</item>
+        <item>224</item>
+        <item>225</item>
+        <item>226</item>
+        <item>227</item>
+        <item>228</item>
+        <item>229</item>
+        <item>230</item>
+        <item>231</item>
+        <item>232</item>
+        <item>233</item>
+        <item>234</item>
+        <item>235</item>
+        <item>236</item>
+        <item>237</item>
+        <item>238</item>
+        <item>239</item>
+        <item>240</item>
+        <item>241</item>
+        <item>242</item>
+        <item>243</item>
+        <item>244</item>
+        <item>245</item>
+        <item>246</item>
+        <item>247</item>
+        <item>248</item>
+        <item>249</item>
+        <item>250</item>
+        <item>251</item>
+        <item>252</item>
+        <item>253</item>
+        <item>254</item>
+        <item>255</item>
+    </string-array><string-array name="Array_iso14443a_Model">
+        <item>ALL</item>
+        <item>IDLE</item>
+    </string-array><string-array name="Array_Psam_SelectType">
+        <item>Card 1</item>
+        <item>Card 2</item>
+    </string-array><string-array name="Array_mifareType">
+        <item>User Area</item>
+        <item>Wallet</item>
+    </string-array><string-array name="Array_Mode">
+        <item>Sub</item>
+        <item>Add</item>
+        <item>Resume</item>
+    </string-array><string-array name="Array_CompareType">
+        <item>No Auth</item>
+        <item>Direct Auth</item>
+        <item>E2 Auth</item>
+    </string-array><string-array name="Array_KeyType">
+        <item>KeyA</item>
+        <item>KeyB</item>
+    </string-array><string-array name="Array_COM_Port">
+        <item>RS485</item>
+        <item>RS232</item>
+        <item>IRDA</item>
+        <item>ESAM</item>
+        </string-array><string-array name="Array_COM_Speed">
+        <item>1200</item>
+        <item>2400</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>115200</item>
+    </string-array><string-array name="Array_COM_Parity">
+        <item>NONE</item>
+        <item>ODD</item>
+        <item>EVEN</item>
+    </string-array><string-array name="Array_COM_Mode">
+        <item>OneTime Send</item>
+        <item>Reveive Loop</item>
+    </string-array><string-array name="Array_PSAM_Index">
+        <item>PSAM1</item>
+        <item>PSAM2</item>
+    </string-array></file><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#4CAF50</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color></file><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">ITS_4</string><string name="username">Username</string><string name="password">Password</string><string name="login">Login</string><string name="sign_up">Sign Up</string><string name="create_account">Create Account</string><string name="fullname">Fullname</string><string name="email">email</string><string name="loginHere">Already have an account? <u>Login</u></string><string name="createAccountText">Don\'t have an account? <u>Create here</u></string><string name="welcome_to_its_corporation">Welcome to ITS Corporation!</string><string name="get_products_btn">Get Products</string><string name="its_rfid">RFID</string><string name="product_row">Product</string><string name="epc_row">EPC</string><string name="btn_show_products">Show records</string><string name="daterow">dateRow</string><string name="productdatarow">productDataRow</string><string name="stagerow">stageRow</string><string name="quantityrow">quantityRow</string><string name="product_name">Product Name</string><string name="epc_code">EPC Code</string><string name="str_ok">OK</string><string name="str_cancel">Cancel</string><string name="str_confirm">Confirm</string><string name="product">Product</string><string name="count">Count</string><string name="Clear_Tags">Clear</string><string name="start">Start</string><string name="quit_items">Quit Items</string><string name="load_to_db">Load to DB</string><string name="uhf_read_power_over">The main power supply is being used, UHF power should not exceed 25dBm!</string><string name="btn_loadedDB">Loaded</string><string name="btn_read">Start</string><string name="btn_read_stop">Stop</string><string name="btn_loadDB">Load to DB</string><string name="uhf_please_stop">Please stop!</string><string name="uhf_low_power_info">Low battery, please charge!</string><string name="tv_Read_Title">Read EPC</string><string name="str_back">Back</string><string name="recv_data">RECV Data:</string><string name="send_data">Send Data:</string><string name="port">Port:</string><string name="speed">Speed:</string><string name="parity">Parity:</string><string name="mode">Mode:</string><string name="str_btn_com_open">Open</string><string name="str_btn_com_work">Work</string></file><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.ITS_4" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
@@ -12398,7 +12807,7 @@
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
         
-    </style></file><file name="backup_rules" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/><file name="product_data_layout" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\product_data_layout.xml" qualifiers="" type="layout"/><file name="product_data_row" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\layout\product_data_row.xml" qualifiers="" type="layout"/></source><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\rs\debug"/><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res"><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-anydpi-v26\ic_lrfid.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-anydpi-v26\ic_lrfid_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-hdpi\ic_its_rfid.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-hdpi\ic_lrfid.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-hdpi\ic_lrfid_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-mdpi\ic_its_rfid.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-mdpi\ic_lrfid.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-mdpi\ic_lrfid_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xhdpi\ic_its_rfid.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xhdpi\ic_lrfid.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xhdpi\ic_lrfid_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxhdpi\ic_its_rfid.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxhdpi\ic_lrfid.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxhdpi\ic_lrfid_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxxhdpi\ic_its_rfid.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxxhdpi\ic_lrfid.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxxhdpi\ic_lrfid_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\values\ic_lrfid_background.xml" qualifiers=""><color name="ic_lrfid_background">#FFFFFF</color></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style></file><file name="backup_rules" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\rs\debug"/><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res"><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-anydpi-v26\ic_lrfid.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-anydpi-v26\ic_lrfid_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-hdpi\ic_its_rfid.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-hdpi\ic_lrfid.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-hdpi\ic_lrfid_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-mdpi\ic_its_rfid.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-mdpi\ic_lrfid.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-mdpi\ic_lrfid_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xhdpi\ic_its_rfid.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xhdpi\ic_lrfid.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xhdpi\ic_lrfid_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxhdpi\ic_its_rfid.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxhdpi\ic_lrfid.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxhdpi\ic_lrfid_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_its_rfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxxhdpi\ic_its_rfid.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_lrfid" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxxhdpi\ic_lrfid.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_lrfid_round" path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\mipmap-xxxhdpi\ic_lrfid_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\debug\res\values\ic_lrfid_background.xml" qualifiers=""><color name="ic_lrfid_background">#FFFFFF</color></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>

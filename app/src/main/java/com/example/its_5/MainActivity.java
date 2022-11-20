@@ -1,12 +1,9 @@
 package com.example.its_5;
-import com.vishnusivadas.advanced_httpurlconnection.FetchData;
 //import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -21,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageButton showProductsBtn = findViewById(R.id.btn_rfid);
+        Button SearchTagBtn = findViewById(R.id.btn_rfidRead);
 
         showProductsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,13 +38,23 @@ public class MainActivity extends AppCompatActivity {
 //                        }
 //                    }
 //                });
-                Intent intent = new Intent(getApplicationContext(), SearchProducts.class);
+                Intent intent = new Intent(getApplicationContext(), SearchProductsActivity.class);
                 intent.putExtra("username",username);
                 MainActivity.this.startActivity(intent);
                 finish();
             }
         });
 
+        SearchTagBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ReadEPCActivity.class);
+                //intent.putExtra("username",username);
+                MainActivity.this.startActivity(intent);
+                finish();
+
+            }
+        });
 
 
 

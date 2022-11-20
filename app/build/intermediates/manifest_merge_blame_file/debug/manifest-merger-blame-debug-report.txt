@@ -10,218 +10,248 @@
 9        android:targetSdkVersion="32" />
 9-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.VIBRATE" />
-12-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:12:5-66
-12-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:12:22-63
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:13:5-68
-13-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:13:22-65
-14    <uses-permission android:name="android.permission.DEVICE_POWER" />
-14-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:14:5-16:47
-14-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:15:9-55
-15    <uses-permission android:name="android.permission.CAMERA" />
-15-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:17:5-65
-15-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:17:22-62
-16    <uses-permission android:name="android.permission.FLASHLIGHT" />
-16-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:18:5-69
-16-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:18:22-66
-17
-18    <uses-feature android:name="android.hardware.camera" />
-18-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:20:5-60
-18-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:20:19-57
-19    <uses-feature android:name="android.hardware.camera.autofocus" />
-19-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:21:5-70
-19-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:21:19-67
-20
-21    <queries>
-21-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:23:5-34:15
-22
-23        <!-- Required for querying the IME service at runtime -->
-24        <intent>
-24-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:26:9-28:18
-25            <action android:name="android.view.InputMethod" />
-25-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:27:13-63
-25-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:27:21-60
-26        </intent>
-27        <!-- Required for querying the plugin at runtime -->
-28        <provider
-28-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:30:9-33:67
-29            android:name="com.android.car.ui.plugin.PluginNameProvider"
-29-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:31:13-72
-30            android:authorities="com.android.car.ui.plugin" />
-30-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:32:13-60
-31    </queries>
+11    <uses-permission android:name="android.permission.READ_LOGS" />
+11-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.CAMERA" >
+13-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:7:5-8:23
+13-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:7:22-62
+14    </uses-permission>
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:10:5-60
+16-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:10:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:11:5-70
+17-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:11:19-67
+18
+19    <uses-permission android:name="android.permission.FLASHLIGHT" >
+19-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:13:5-14:23
+19-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:13:22-66
+20    </uses-permission>
+21    <uses-permission android:name="android.permission.VIBRATE" >
+21-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:15:5-16:23
+21-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:15:22-63
+22    </uses-permission>
+23    <uses-permission android:name="android.permission.INTERNET" >
+23-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:17:5-18:23
+23-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:17:22-64
+24    </uses-permission>
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+25-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:19:5-20:23
+25-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:19:22-72
+26    </uses-permission>
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+27-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:5-22:23
+27-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:22-78
+28    </uses-permission>
+29    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+29-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:5-83
+29-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:22-81
+30
+31    <queries>
+31-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:23:5-34:15
 32
-33    <application
-33-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:7:5-63:19
-34        android:allowBackup="true"
-34-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:8:9-35
-35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.8.0] C:\Users\emheinze\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-36        android:dataExtractionRules="@xml/data_extraction_rules"
-36-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:9:9-65
-37        android:debuggable="true"
-38        android:extractNativeLibs="false"
-39        android:fullBackupContent="@xml/backup_rules"
-39-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:10:9-54
-40        android:icon="@mipmap/ic_lrfid"
-40-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:11:9-40
-41        android:label="ITS"
-41-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:12:9-28
-42        android:roundIcon="@mipmap/ic_lrfid_round"
-42-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:13:9-51
-43        android:supportsRtl="true"
-43-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:14:9-35
-44        android:testOnly="true"
-45        android:theme="@style/Theme.ITS_4"
-45-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:15:9-43
-46        android:usesCleartextTraffic="true" >
-46-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:16:9-44
-47        <activity
-47-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:18:9-25:20
-48            android:name="com.example.its_5.DataProductActivity"
-48-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:20:13-48
-49            android:exported="true"
-49-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:21:13-36
-50            android:parentActivityName="com.example.its_5.SearchProducts" >
-50-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:19:13-57
-51            <meta-data
-51-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:13-24:36
-52                android:name="android.app.lib_name"
-52-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-52
-53                android:value="" />
-53-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:24:17-33
-54        </activity>
-55        <activity
-55-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:26:9-33:20
-56            android:name="com.example.its_5.SearchProducts"
-56-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:28:13-43
-57            android:exported="true"
-57-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:29:13-36
-58            android:parentActivityName="com.example.its_5.MainActivity" >
-58-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:27:13-55
-59            <meta-data
-59-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:13-24:36
-60                android:name="android.app.lib_name"
-60-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-52
-61                android:value="" />
-61-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:24:17-33
-62        </activity>
-63        <activity
-63-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:34:9-47:20
-64            android:name="com.example.its_5.LogIn"
-64-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:35:13-34
-65            android:exported="true"
-65-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:36:13-36
-66            android:theme="@style/Theme.Design.Light.NoActionBar" >
-66-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:37:13-66
-67            <intent-filter>
-67-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:38:13-42:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:39:17-69
-68-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:39:25-66
-69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-77
-70-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:27-74
-71            </intent-filter>
-72
-73            <meta-data
-73-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:13-24:36
-74                android:name="android.app.lib_name"
-74-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-52
-75                android:value="" />
-75-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:24:17-33
-76        </activity>
-77        <activity
-77-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:48:9-55:20
-78            android:name="com.example.its_5.SignUp"
-78-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:49:13-35
-79            android:exported="true"
-79-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:50:13-36
-80            android:theme="@style/Theme.Design.Light.NoActionBar" >
-80-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:51:13-66
-81            <meta-data
-81-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:13-24:36
-82                android:name="android.app.lib_name"
-82-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-52
-83                android:value="" />
-83-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:24:17-33
-84        </activity>
-85        <activity
-85-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:56:9-62:20
-86            android:name="com.example.its_5.MainActivity"
-86-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:57:13-41
-87            android:exported="true" >
-87-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:58:13-36
-88            <meta-data
-88-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:22:13-24:36
-89                android:name="android.app.lib_name"
-89-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:23:17-52
-90                android:value="" />
-90-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:24:17-33
-91        </activity>
-92        <activity
-92-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:24:9-26:85
-93            android:name="com.hopeland.ui.ZXingScanActivity"
-93-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:25:13-61
-94            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
-94-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:26:13-82
-95        <activity
-95-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:27:9-29:85
-96            android:name="com.hopeland.ui.ZXingDumpActivity"
-96-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:28:13-61
-97            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
-97-->[pdasdk_v3.39_20211203.aar] C:\Users\emheinze\.gradle\caches\transforms-3\cbf4f8da34b7c3d3f10fcdf2b143a744\transformed\jetified-pdasdk_v3.39_20211203\AndroidManifest.xml:29:13-82
-98
-99        <provider
-99-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:37:9-42:71
-100            android:name="com.android.car.ui.core.CarUiInstaller"
-100-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:38:13-66
-101            android:authorities="com.example.its_5.CarUiInstaller"
-101-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:39:13-66
-102            android:directBootAware="true"
-102-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:40:13-43
-103            android:exported="false"
-103-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:41:13-37
-104            android:process="@string/car_ui_installer_process_name" />
-104-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:42:13-68
-105        <provider
-105-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:43:9-48:79
-106            android:name="com.android.car.ui.core.SearchResultsProvider"
-106-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:44:13-73
-107            android:authorities="com.example.its_5.SearchResultsProvider"
-107-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:45:13-73
-108            android:exported="true"
-108-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:46:13-36
-109            android:process="@string/car_ui_installer_process_name"
-109-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:47:13-68
-110            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
-110-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:48:13-76
-111        <provider
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-112            android:name="androidx.startup.InitializationProvider"
-112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-113            android:authorities="com.example.its_5.androidx-startup"
-113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-114            android:exported="false" >
-114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-115            <meta-data
-115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-117                android:value="androidx.startup" />
-117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-118            <meta-data
-118-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-119-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-120                android:value="androidx.startup" />
-120-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-121        </provider>
-122    </application>
-123
-124</manifest>
+33        <!-- Required for querying the IME service at runtime -->
+34        <intent>
+34-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:26:9-28:18
+35            <action android:name="android.view.InputMethod" />
+35-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:27:13-63
+35-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:27:21-60
+36        </intent>
+37        <!-- Required for querying the plugin at runtime -->
+38        <provider
+38-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:30:9-33:67
+39            android:name="com.android.car.ui.plugin.PluginNameProvider"
+39-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:31:13-72
+40            android:authorities="com.android.car.ui.plugin" />
+40-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:32:13-60
+41    </queries>
+42
+43    <application
+43-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:26:5-96:19
+44        android:allowBackup="true"
+44-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:27:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.8.0] C:\Users\emheinze\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+46        android:dataExtractionRules="@xml/data_extraction_rules"
+46-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:28:9-65
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:fullBackupContent="@xml/backup_rules"
+49-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:29:9-54
+50        android:icon="@mipmap/ic_lrfid"
+50-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:30:9-40
+51        android:label="ITS"
+51-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:31:9-28
+52        android:roundIcon="@mipmap/ic_lrfid_round"
+52-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:32:9-51
+53        android:supportsRtl="true"
+53-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:33:9-35
+54        android:testOnly="true"
+55        android:theme="@style/Theme.ITS_4"
+55-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:34:9-43
+56        android:usesCleartextTraffic="true" >
+56-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:35:9-44
+57        <activity
+57-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:37:9-43:20
+58            android:name="com.example.its_5.SearchOTActivity"
+58-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:38:13-45
+59            android:exported="false" >
+59-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:39:13-37
+60            <meta-data
+60-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-42:36
+61                android:name="android.app.lib_name"
+61-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-52
+62                android:value="" />
+62-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:17-33
+63        </activity>
+64        <activity
+64-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:44:9-51:20
+65            android:name="com.example.its_5.DataProductActivity"
+65-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:45:13-48
+66            android:exported="true"
+66-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:46:13-36
+67            android:parentActivityName="com.example.its_5.SearchProductsActivity" >
+67-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:47:13-65
+68            <meta-data
+68-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-42:36
+69                android:name="android.app.lib_name"
+69-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-52
+70                android:value="" />
+70-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:17-33
+71        </activity>
+72        <activity
+72-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:52:9-59:20
+73            android:name="com.example.its_5.SearchProductsActivity"
+73-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:53:13-51
+74            android:exported="true"
+74-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:54:13-36
+75            android:parentActivityName="com.example.its_5.MainActivity" >
+75-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:55:13-55
+76            <meta-data
+76-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-42:36
+77                android:name="android.app.lib_name"
+77-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-52
+78                android:value="" />
+78-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:17-33
+79        </activity>
+80        <activity
+80-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:60:9-73:20
+81            android:name="com.example.its_5.LogInActivity"
+81-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:61:13-42
+82            android:exported="true"
+82-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:62:13-36
+83            android:theme="@style/Theme.Design.Light.NoActionBar" >
+83-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:63:13-66
+84            <intent-filter>
+84-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:64:13-68:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:65:17-69
+85-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:65:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:67:17-77
+87-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:67:27-74
+88            </intent-filter>
+89
+90            <meta-data
+90-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-42:36
+91                android:name="android.app.lib_name"
+91-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-52
+92                android:value="" />
+92-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:17-33
+93        </activity>
+94        <activity
+94-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:74:9-81:20
+95            android:name="com.example.its_5.SignUpActivity"
+95-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:75:13-43
+96            android:exported="true"
+96-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:76:13-36
+97            android:theme="@style/Theme.Design.Light.NoActionBar" >
+97-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:77:13-66
+98            <meta-data
+98-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-42:36
+99                android:name="android.app.lib_name"
+99-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-52
+100                android:value="" />
+100-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:17-33
+101        </activity>
+102        <activity
+102-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:82:9-88:20
+103            android:name="com.example.its_5.MainActivity"
+103-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:83:13-41
+104            android:exported="true" >
+104-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:84:13-36
+105            <meta-data
+105-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-42:36
+106                android:name="android.app.lib_name"
+106-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-52
+107                android:value="" />
+107-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:17-33
+108        </activity>
+109        <activity
+109-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:89:9-95:20
+110            android:name="com.example.its_5.ReadEPCActivity"
+110-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:90:13-44
+111            android:exported="true" >
+111-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:91:13-36
+112            <meta-data
+112-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:40:13-42:36
+113                android:name="android.app.lib_name"
+113-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:41:17-52
+114                android:value="" />
+114-->C:\Users\emheinze\AndroidStudioProjects\ITS_5\app\src\main\AndroidManifest.xml:42:17-33
+115        </activity>
+116
+117        <provider
+117-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:37:9-42:71
+118            android:name="com.android.car.ui.core.CarUiInstaller"
+118-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:38:13-66
+119            android:authorities="com.example.its_5.CarUiInstaller"
+119-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:39:13-66
+120            android:directBootAware="true"
+120-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:40:13-43
+121            android:exported="false"
+121-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:41:13-37
+122            android:process="@string/car_ui_installer_process_name" />
+122-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:42:13-68
+123        <provider
+123-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:43:9-48:79
+124            android:name="com.android.car.ui.core.SearchResultsProvider"
+124-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:44:13-73
+125            android:authorities="com.example.its_5.SearchResultsProvider"
+125-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:45:13-73
+126            android:exported="true"
+126-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:46:13-36
+127            android:process="@string/car_ui_installer_process_name"
+127-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:47:13-68
+128            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+128-->[com.android.car.ui:car-ui-lib:2.3.0] C:\Users\emheinze\.gradle\caches\transforms-3\914422cfddfc2918a21e85747e6a1959\transformed\jetified-car-ui-lib-2.3.0\AndroidManifest.xml:48:13-76
+129        <provider
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+130            android:name="androidx.startup.InitializationProvider"
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+131            android:authorities="com.example.its_5.androidx-startup"
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+132            android:exported="false" >
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+133            <meta-data
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+135                android:value="androidx.startup" />
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\emheinze\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+136            <meta-data
+136-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+137                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+137-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+138                android:value="androidx.startup" />
+138-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\emheinze\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+139        </provider>
+140    </application>
+141
+142</manifest>

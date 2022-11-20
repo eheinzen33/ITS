@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -33,7 +34,7 @@ public class DataProductActivity extends AppCompatActivity {
     TextView lastDate;
     TextView lastStage;
     TextView lastQuantity;
-
+    Button searchOT;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -41,6 +42,7 @@ public class DataProductActivity extends AppCompatActivity {
         this.username = getIntent().getStringExtra("username");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_data_layout);
+        searchOT = findViewById(R.id.btn_search_ot);
         productRecordList = new ArrayList<>();
         productTitle = findViewById(R.id.title_product_data);
         productTitle.setText(epcList.get(0));
@@ -53,13 +55,23 @@ public class DataProductActivity extends AppCompatActivity {
         progressBar.setVisibility(View.VISIBLE);
         GetData getData = new GetData();
         getData.execute();
+        searchOT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), SearchOTActivity.class);
+                intent.putExtra("username",String.valueOf(username));
+                intent.putStringArrayListExtra("epcList", epcList);
+                DataProductActivity.this.startActivity(intent);
+                finish();
+            }
+        });
 
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent = new Intent(getApplicationContext(), SearchProducts.class);
+        Intent intent = new Intent(getApplicationContext(), SearchProductsActivity.class);
         intent.putExtra("username",String.valueOf(username));
         intent.putExtra("epcList",String.valueOf(epcList));
         DataProductActivity.this.startActivity(intent);

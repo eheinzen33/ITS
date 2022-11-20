@@ -21,4 +21,31 @@
     <string name="quantityrow">quantityRow</string>
     <string name="product_name">Product Name</string>
     <string name="epc_code">EPC Code</string>
+    <string name="str_ok">OK</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_confirm">Confirm</string>
+    <string name="product">Product</string>
+    <string name="count">Count</string>
+    <string name="Clear_Tags">Clear</string>
+    <string name="start">Start</string>
+    <string name="quit_items">Quit Items</string>
+    <string name="load_to_db">Load to DB</string>
+    <string name="uhf_read_power_over">The main power supply is being used, UHF power should not exceed 25dBm!</string>
+    <string name="btn_loadedDB">Loaded</string>
+    <string name="btn_read">Start</string>
+    <string name="btn_read_stop">Stop</string>
+    <string name="btn_loadDB">Load to DB</string>
+    <string name="uhf_please_stop">Please stop!</string>
+    <string name="uhf_low_power_info">Low battery, please charge!</string>
+    <string name="tv_Read_Title">Read EPC</string>
+    <string name="str_back">Back</string>
+    <string name="recv_data">RECV Data:</string>
+    <string name="send_data">Send Data:</string>
+    <string name="port">Port:</string>
+    <string name="speed">Speed:</string>
+    <string name="parity">Parity:</string>
+    <string name="mode">Mode:</string>
+    <string name="str_btn_com_open">Open</string>
+    <string name="str_btn_com_work">Work</string>
+
 </resources>

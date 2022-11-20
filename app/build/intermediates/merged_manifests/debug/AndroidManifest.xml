@@ -8,15 +8,25 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="32" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.DEVICE_POWER" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
 
     <queries>
 
@@ -45,15 +55,22 @@
         android:theme="@style/Theme.ITS_4"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.its_5.DataProductActivity"
-            android:exported="true"
-            android:parentActivityName="com.example.its_5.SearchProducts" >
+            android:name="com.example.its_5.SearchOTActivity"
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.its_5.SearchProducts"
+            android:name="com.example.its_5.DataProductActivity"
+            android:exported="true"
+            android:parentActivityName="com.example.its_5.SearchProductsActivity" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.its_5.SearchProductsActivity"
             android:exported="true"
             android:parentActivityName="com.example.its_5.MainActivity" >
             <meta-data
@@ -61,7 +78,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.its_5.LogIn"
+            android:name="com.example.its_5.LogInActivity"
             android:exported="true"
             android:theme="@style/Theme.Design.Light.NoActionBar" >
             <intent-filter>
@@ -75,7 +92,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.its_5.SignUp"
+            android:name="com.example.its_5.SignUpActivity"
             android:exported="true"
             android:theme="@style/Theme.Design.Light.NoActionBar" >
             <meta-data
@@ -90,11 +107,12 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.hopeland.ui.ZXingScanActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
-        <activity
-            android:name="com.hopeland.ui.ZXingDumpActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
+            android:name="com.example.its_5.ReadEPCActivity"
+            android:exported="true" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
 
         <provider
             android:name="com.android.car.ui.core.CarUiInstaller"
